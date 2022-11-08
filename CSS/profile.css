@@ -1,0 +1,175 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+h1{
+    text-align: center;
+background-color: white;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+padding-top: 21.44px;
+padding-bottom: 21.44px;
+
+
+}
+.allpart{
+    padding-left: 50px;
+}
+.menue p { border-bottom : solid 2px rgba(138, 159, 180, 0.764) ; 
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+}
+.menue{
+    
+}
+
+body{
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    background-color: rgb(236, 240, 245);
+    padding-bottom: 50px;
+    margin: 0px;
+}
+section{
+   
+    display: flex;
+    gap: 160px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+    background-color: rgb(236, 240, 245);
+    min-height: 50vh
+}
+content{
+   
+    
+}   
+content2{
+    
+}
+
+.border {
+    border-top : solid 2px rgba(138, 159, 180, 0.764) ; 
+    width: 740px;
+    margin-left: 300px;
+   
+  
+   
+}
+
+.skill h2{
+   
+    padding-left: 300px;
+    margin-top: 0px;
+}
+.skill{
+  
+   
+
+}
+.skill2{
+   
+    display: flex;
+    text-align: center;
+    padding-left: 300px;
+    
+    
+    padding-bottom: 25px;
+   
+}
+
+.skill2 p{
+    padding-right: 95px;
+    
+}
+
+.wordpress p{
+    padding-right: 115px;
+}
+.html p{
+    padding-right: 130px;
+}
+
+  
+
+.menue{
+    background-position: 500px;
+    padding-top: 50px;
+     
+}
+
+.contentsu img {
+    width: 250px;
+    
+   
+}
+.contentsu{
+    background-position: center;
+    padding-top: 80px;
+   
+}
+
+.contentsu2{
+   text-align: center;
+    padding-left: 317px;
+    display: flex;
+    gap: 130px;
+    
+
+}
+.contentsu2 img {
+    width: 40px;
+    height: 40px;
+}
+.border2{
+    display: flex;
+    gap: 130px;
+   
+   padding-left: 320px;
+  
+}
+.border2 p{
+    margin-top: 0px;
+    font-size: 16px;
+}
+.border3 p{
+    padding-top: 2px;
+    font-size: 17px;
+}
+.contact{
+    border-top : solid 2px rgba(138, 159, 180, 0.764) ; 
+    width: 740px;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+.contact2{
+    display: flex;
+    gap: 100px;
+   padding-left: 320px;
+  
+}
+.contact2 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 13px;
+    
+}
+.contact2 p{
+    
+}
+.fadein{
+    animation-name:fadeInAnime;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeInAnime{
+      from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+
+header{
+    background-color:#ffffff;
+    padding:20px 40px ;
+    height: 40px;
+}
+h1{
+ 
+    text-align:center;
+    margin: 0px;
+    
+
+}
+p{
+    text-align:center;
+    margin: 0px;
+    color: rgb(180, 197, 218);
+    font-weight: bolder;
+}
+.contentsu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+   
+    grid-template-rows: 300px 300px;
+    margin-top: 3%;
+    
+    
+    min-height: 100vh
+    width:250px;
+    text-align:center;
+    animation: fadeIn 1.5s ease 2.0s 1 normal;
+    background-color: rgb(236, 240, 245);
+    min-height: 90vh;
+}
+
+  
+  .contentsu img {
+    width: 350px;
+    padding-top: 50px;
+    animation: fadeIn 1.5s ease 2.0s 1 normal;
+    transition: 1.0s ;
+  }
+  .contentsu img:hover {
+	opacity: 0.5 ;
+}
+.background{
+   
+}
+.Item{
+    position: relative;
+}
+.Item a {
+color: #ffffff;
+
+font-size: 30px;;
+font-weight: bold;
+
+
+}
+.item{
+   
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%,-52%);
+}
+
+.fadein{
+
+  
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    0% {
+       opacity: 0;
+       transform: translateY(40px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+  }

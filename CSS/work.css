@@ -1,0 +1,109 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+h1{
+    text-align: center;
+}
+body{
+   
+  
+   
+   
+    
+}
+  
+.partall{
+    padding-left: 40px;
+}
+.menue{
+    background-color: rgb(236, 240, 245);
+    min-height: 200vh;
+    
+    padding-top: px;
+}
+.menuep{
+    padding-left:45px ;
+}
+
+
+
+
+.contentsu img {
+    width: 750px;
+   background-position: center;
+   padding-left: 300px;
+    
+}
+.contentsu h2{
+    padding-left: 300px;
+}
+.contentsu p{
+    padding-left: 300px;
+}
+.contentsu{
+   padding-left: 40px;
+    padding-top: 80px;
+}
+.Item3{
+    display: flex;
+  gap: 50px;
+    text-align: center;
+    padding-left: 300px;
+}
+.Item4{
+    display: flex;
+    gap: 230px;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+.Item5{
+    display: flex;
+    gap: 240px;
+    padding-left: 405px;
+    padding-top: 50px;
+}
+
+.Item2 img{
+    padding-top: 20px;
+}
+.Item3 img{
+    padding-top: 20px;
+    width: 340px;
+    padding-left: 30px;
+
+}
+.Item4 img{
+    padding-left: 30px;
+   size: 20%;
+}
+.Item5 img{
+    padding-left: 30px;
+    width: 150px;
+ }
+
+
+.detail h2{
+    padding-left: 300px;
+}
+.detail p{
+    padding-left: 300px;
+}
+
+.fadein{
+    animation-name:fadeInAnime;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeInAnime{
+      from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }
